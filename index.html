@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link href="js/dist/viewer.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="js/dist/viewer.js"></script>
+    <button id="test" onclick="showImage(1)">Show images</button>
+    <button id="test2" onclick="showImage(2)">Show images 2</button>
+  <div style="height: 1px; width: 1px; visibility: collapse;">
+    <ul id="images">
+      <li><img src="images/picture-1.jpg" alt="Picture 1"></li>
+      <li><img src="images/picture-2.jpg" alt="Picture 2"></li>
+      <li><img src="images/picture-3.jpg" alt="Picture 3"></li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+      const gallery = new Viewer(document.getElementById('images'), {
+          toolbar: {
+            zoomIn: { show: 1, size:'large' },
+            zoomOut:  { show: 1, size: 'large' },
+            oneToOne:  { show: 1, size: 'large' },
+            reset: { show: 1, size: 'large' },
+          },
+          title: 0,
+          navbar: false
+        });
+        function showImage(initialImage){
+          gallery.show();
+          gallery.view(initialImage);
+        }
+  </script>
+</body>
+</html>
