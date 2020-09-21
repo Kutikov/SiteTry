@@ -93,6 +93,17 @@
   font-size: 14px;
   font-weight: 600;
 }
+.page_title{
+  font-family: sans-serif;
+  margin-top: 16px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  font-size: 16px;
+    text-align: center;
+  font-weight: 600;
+}
 .info_text{
   word-break: break-word;
   margin-bottom: 0px;
@@ -127,6 +138,10 @@
   .poster_title{
     font-size: 20px;
     text-align: justify;
+  }
+  .page_title{
+    font-size: 24px;
+    text-align: center;
   }
   .info_text{
     font-size: 16px;

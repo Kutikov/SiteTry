@@ -24,6 +24,12 @@ const cardPrototype =
     </div>  
 </div>`
 
+function generateImage(source){
+    let item = document.createElement('li');
+    item.innerHTML = '<img src="images/!source!" style="height: 0px;width: 0px" alt="Picture 3">'.replace(/!source!/i, source);
+    return item;
+}
+
 function generatePosterCard(source){
     let html = cardPrototype;
     html = html.replace(/!title!/i, source.title);
