@@ -10,23 +10,26 @@
 
   <link href="js/dist/viewer.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <script type="text/javascript" src="js/poster_sources.json"></script>
+  <script type="text/javascript" src="js/poster_sources.js"></script>
+  <script type="text/javascript" src="js/cards.js"></script>
 
 </head>
 
 <body>
     <script src="js/dist/viewer.js"></script>
-    <button id="test" onclick="showImage(1)">Show images</button>
-    <button id="test2" onclick="showImage(2)">Show images 2</button>
-  <div style="height: 1px; width: 1px; visibility: collapse;">
+    <div style="width: 100%;display:flex;align-content: center;">
+      <div id="cardsRoot" style="width: 600px;margin:auto;"></div>
+    </div>
+    <div style="height: 0px; width: 1px; visibility: collapse;">
     <ul id="images">
-      <li><img src="images/picture-1.jpg" alt="Picture 1"></li>
-      <li><img src="images/picture-2.jpg" alt="Picture 2"></li>
-      <li><img src="images/picture-3.jpg" alt="Picture 3"></li>
+      <li><img src="images/picture-1.jpg" style="height: 0px;" alt="Picture 1"></li>
+      <li><img src="images/picture-2.jpg" style="height: 0px;" alt="Picture 2"></li>
+      <li><img src="images/picture-3.jpg" style="height: 0px;" alt="Picture 3"></li>
     </ul>
-  </div>
+    </div>
   <script type="text/javascript">
-      const gallery = new Viewer(document.getElementById('images'), {
+        
+        const gallery = new Viewer(document.getElementById('images'), {
           toolbar: {
             zoomIn: { show: 1, size:'large' },
             zoomOut:  { show: 1, size: 'large' },
@@ -36,9 +39,19 @@
           title: 0,
           navbar: false
         });
+        
         function showImage(initialImage){
           gallery.show();
           gallery.view(initialImage);
+        }
+
+        function press(image_name){
+          showImage(imagesList.findIndex(obj => obj === image_name));
+        }
+
+        for (let i = 0; i < posters.length; i++) {
+          let card = generatePosterCard(posters[i]);
+          document.getElementById('cardsRoot').appendChild(card);
         }
   </script>
 </body>
