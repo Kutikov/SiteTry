@@ -14,7 +14,7 @@
   margin-top: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   padding-right: 16px;
 }
@@ -30,12 +30,46 @@
     padding-left: 8px;
     padding-right: 8px;
     margin-right: 8px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 4px;
     background-color: #0059cc00;
     cursor: pointer;
     user-select: none;
+}
+  
+.moderator_button:hover{
+    background-color: #0059cc22;
+}
+.moderator_button{
+  font-family: sans-serif;
+    margin-top: 4px;
+    margin-left: auto;
+    color: #0059cc;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: 4px;
+    border-radius: 4px;
+    background-color: #0059cc00;
+    cursor: pointer;
+    user-select: none;
+}
+.moderator_text{
+  word-break: break-word;
+  color: #000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  flex-wrap: wrap;
+  line-height: 20px;
+  font-family: sans-serif;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-right: 16px;
 }
 .poster_button:hover{
     background-color: #0059cc22;
@@ -52,11 +86,53 @@
 .poster_title{
   font-family: sans-serif;
   margin-top: 16px;
-  text-align: justify;
   margin-bottom: 8px;
   padding-top: 16px;
   padding-left: 16px;
   padding-right: 16px;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
+}
+.info_text{
+  word-break: break-word;
+  margin-bottom: 0px;
+  color: #0059cc;
+  flex-wrap: wrap;
+  line-height: 20px;
+  font-family: sans-serif;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 16px;
+}
+.posters_holder{
+    width: 100%;
+    margin: auto;
+  }
+@media (min-width: 600px){
+  .posters_holder{
+    width: 600px;
+  }
+}
+@media (min-width: 426px){
+  .poster_button{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .description_text{
+    font-size: 16px;
+  }
+  .poster_title{
+    font-size: 20px;
+    text-align: justify;
+  }
+  .info_text{
+    font-size: 16px;
+  }
+
+  .moderator_text{
+    font-size: 20px;
+  }
 }
