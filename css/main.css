@@ -7,6 +7,17 @@
 body{
   height: 100%; 
   overflow: hidden; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.image_div{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
   background-image: url(HNU.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,12 +78,13 @@ body{
 .main_div{
   width: 100%;
   display: flex;
-  align-content: center; 
-  padding-top: 140px; 
+  align-content: center;
+  padding-bottom: 56px;
   overflow: auto; 
-  position: absolute; 
+  position: fixed; 
   top: 0; 
   left: 0;
+  right: 0;
   bottom: 0;
 }
 .moderator_text{
@@ -116,10 +128,9 @@ body{
   margin-top: 16px;
   text-transform: uppercase;
   margin-bottom: 8px;
-  padding-top: 16px;
   padding-bottom: 24px;
   font-size: 16px;
-    text-align: center;
+  text-align: center;
   font-weight: 600;
 }
 .info_text{
@@ -144,20 +155,12 @@ body{
     padding-left: 8px; 
     border-radius: 8px;
   }
-@media (min-width: 769px){
-  .main_div{
-    padding-top: 400px !important; 
-  }
-}
 @media (min-width: 600px){
   .posters_holder{
     width: 600px;
   }
 }
 @media (min-width: 426px){
-  .main_div{
-    padding-top: 250px; 
-  }
   .poster_button{
     font-size: 20px;
     font-weight: 600;
