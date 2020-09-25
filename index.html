@@ -29,7 +29,7 @@
 
 <body>
     <div id="imageDiv" class="image_div"></div>
-    <div class="posters_holder" style="bottom:0; position:absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; display: flex; align-items: center;">
+    <div class="posters_holder" id="copyRight" style="bottom: 8px; position:absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; display: flex; align-items: center;">
       <div style="width:49%; display: flex; align-items: center; margin-bottom: 8px;">
         <svg style="width:32px;height:32px;margin-right:8px" viewBox="0 0 24 24">
           <path fill="#0059cc"
@@ -106,6 +106,7 @@
           let height = document.body.clientWidth * 0.36;
           document.getElementById('imageDiv').style.height = height + 'px';
           document.getElementById('mainDiv').style.paddingTop = height + 'px';
+          document.getElementById('mainDiv').style.paddingBottom = (8 + document.getElementById('copyRight').offsetHeight) + 'px';
         }
 
         window.onresize = function(event){

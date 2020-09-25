@@ -82,10 +82,15 @@ body{
   padding-bottom: 56px;
   overflow: auto; 
   position: fixed; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   top: 0; 
   left: 0;
   right: 0;
   bottom: 0;
+}
+.main_div::-webkit-scrollbar {
+    display: none;
 }
 .moderator_text{
   word-break: break-word;
