@@ -26,13 +26,15 @@ const posters = [
         "authors": "КІЗЮРІНА Юлія Віталіївна<br/>КУТІКОВ Дамір Олександрович", 
         "affiliation": "Харківський національний університет імені В.Н. Каразіна, медичний факультет, кафедра клнічної патології", 
         "supervisor": "к.м.н., доц. ШАПОВАЛ Олена Володимирівна", 
-        "presentation_link": "picture-3.jpg"
+        "time": "9:00-9:10",
+        "presentation_link": "https://docs.google.com/presentation/d/e/2PACX-1vT-mdHJcyhEzCcPJ4nRkJ12AfRfnG4OYE0kFcgUf0r8eChJc_GyuPg6o7AkJ3E-mQ/pub?start=false&loop=false&delayms=3000"
     },
     {
         "title": "КЛІНІКО-ПАТОМОРФОЛОГІЧНЕ ТА ЕКОНОМІЧНЕ ОБҐРУНТУВАННЯ ВИКОРИСТАННЯ ЦЕНТРАЛЬНОГО ВЕНОЗНОГО КАТЕТЕРУ, ЩО ІМПЛАНТУЄТЬСЯ ПЕРИФЕРИЧНО",
         "authors": "КІЗЮРІНА Юлія Віталіївна<br/>КУТІКОВ Дамір Олександрович",
         "affiliation": "Харківський національний університет імені В.Н. Каразіна, медичний факультет, кафедра клнічної патології",
         "supervisor": "к.м.н., доц. ШАПОВАЛ Олена Володимирівна",
+        "time": "9:00-9:10",
         "presentation_link": null
     },
     {
@@ -40,6 +42,7 @@ const posters = [
         "authors": "КІЗЮРІНА Юлія Віталіївна<br/>КУТІКОВ Дамір Олександрович",
         "affiliation": "Харківський національний університет імені В.Н. Каразіна, медичний факультет, кафедра клнічної патології",
         "supervisor": "к.м.н., доц. ШАПОВАЛ Олена Володимирівна",
+        "time": "9:00-9:10",
         "presentation_link": "https://docs.google.com/presentation/d/e/2PACX-1vT-mdHJcyhEzCcPJ4nRkJ12AfRfnG4OYE0kFcgUf0r8eChJc_GyuPg6o7AkJ3E-mQ/pub?start=false&loop=false&delayms=3000"
     }
 ];

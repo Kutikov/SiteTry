@@ -35,6 +35,12 @@ const cardPresentationPrototype =
     </div>
     <div style="display:flex; align-items:center; margin-bottom:12px">
         <svg class="description_icon" viewBox="0 0 24 24">
+            <path fill="#0059cc" d="M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M15.3 16.2L14 17L11 11.8V7H12.5V11.4L15.3 16.2Z" />
+        </svg>
+        <p class="description_text">!time!</p>
+    </div>
+    <div style="display:flex; align-items:center; margin-bottom:12px">
+        <svg class="description_icon" viewBox="0 0 24 24">
             <path fill="#0059cc" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
         </svg>
         <p class="description_text">!affiliation!</p>
@@ -77,6 +83,7 @@ function generatePresentationCard(source){
     html = html.replace(/!authors!/i, source.authors);
     html = html.replace(/!affiliation!/i, source.affiliation);
     html = html.replace(/!supervisor!/i, source.supervisor);
+    html = html.replace(/!time!/i, source.time);
     if(source.presentation_link != null){
         html = html.replace(/!presentation_link!/i, source.presentation_link);
     }
