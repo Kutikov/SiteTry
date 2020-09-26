@@ -22,7 +22,7 @@
 
   <link href="js/dist/viewer.css" rel="stylesheet">
   <link href="css/main.css?id=124" rel="stylesheet">
-  <script type="text/javascript" src="js/cards.js"></script>
+  <script type="text/javascript" src="js/cards.js?id=123"></script>
 
 </head>
 
@@ -134,10 +134,10 @@
         script.onload= helper;
         switch(document.location.search){
           case "?section=neurology":
-            script.src = "js/sections/neurology.js";
+            script.src = "js/sections/neurology.js?id=123";
             break;
           case "?section=psychiatry":
-            script.src = "js/sections/psychiatry.js";
+            script.src = "js/sections/psychiatry.js?id=123";
             break;
         }  // set its src to the provided URL
         document.head.appendChild(script);        
