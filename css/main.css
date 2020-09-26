@@ -42,6 +42,7 @@ body{
     margin-left: auto;
     text-align: justify;
     color: #0059cc;
+    text-decoration: none;
     margin-bottom: 8px;
     padding-bottom: 8px;
     padding-top: 8px;
@@ -52,6 +53,27 @@ body{
     font-weight: 600;
     border-radius: 4px;
     background-color: #0059cc00;
+    cursor: pointer;
+    user-select: none;
+}
+
+.zoom_button{
+  font-family: sans-serif;
+    margin-top: 8px;
+    margin-left: auto;
+    text-align: justify;
+    color: #bf360c;
+    text-decoration: none;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #bf360c00;
     cursor: pointer;
     user-select: none;
 }
@@ -106,6 +128,12 @@ body{
   font-weight: 600;
   padding-right: 16px;
 }
+.zoom_button:hover{
+    background-color: #bf360c22;
+}
+.zoom_button:focus{
+    background-color: #bf360c33;
+}
 .poster_button:hover{
     background-color: #0059cc22;
 }
@@ -119,6 +147,7 @@ body{
   box-shadow: 0px 3px 6px 2px #0000004f;
 }
 .poster_title{
+  text-transform: uppercase;
   font-family: sans-serif;
   margin-top: 16px;
   margin-bottom: 8px;
@@ -167,6 +196,10 @@ body{
 }
 @media (min-width: 426px){
   .poster_button{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .zoom_button{
     font-size: 20px;
     font-weight: 600;
   }
