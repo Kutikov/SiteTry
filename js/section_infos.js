@@ -19,8 +19,8 @@ const infos = [
 			}
 		],
 		"zoom": {
-			"link": "-",
-			"password": "-"
+			"link": "https://us04web.zoom.us/j/4754417420?pwd=ZjhGdGx4OTBKd3RBK0M0MURod3U5Zz09",
+			"password": "u2fuBF"
 		},
 		"program": "-"
 	},
@@ -44,8 +44,8 @@ const infos = [
 			}
 		],
 		"zoom": {
-			"link": "",
-			"password": "-"
+			"link": "https://us04web.zoom.us/j/74885472544?pwd=S2ptUEQ0VUhHOVlQYmROSFpnSE1VZz09",
+			"password": "4G2R0J"
 		},
 		"program": "-"
 	},
@@ -62,15 +62,15 @@ const infos = [
 				"tel": "+380506411158"
 			},
 			{
-				"surname": "",
-				"name": "",
-				"middle_name": "",
-				"tel": "+"
+				"surname": "Shepel",
+				"name": "Veronika",
+				"middle_name": "V.",
+				"tel": "+380685805547"
 			}
 		],
 		"zoom": {
-			"link": "-",
-			"password": "-"
+			"link": "https://us04web.zoom.us/j/4328420013?pwd=b2pnNUprTXNJa25oNFdsTThEK2orZz09",
+			"password": "XT9198"
 		},
 		"program": "-"
 	},
@@ -81,45 +81,45 @@ const infos = [
 		"adress": "ДУ 'Інститут охорони здоров'я дітей та підлітків НАМН України', пр-Ювілейний 52а",
 		"moderators": [
 			{
-				"surname": "Аврамкіна",
-				"name": "Дар'я",
-				"middle_name": "Костянтинівна",
-				"tel": "+380685769887"
+				"surname": "Бурко",
+				"name": "Варвара",
+				"middle_name": "Дмитрівна",
+				"tel": "+380501974058"
 			},
 			{
-				"surname": "Шевцова",
-				"name": "Марія",
-				"middle_name": "Юріївна",
-				"tel": "+380662431994"
+				"surname": "Тесленко",
+				"name": "Анна",
+				"middle_name": "Олександрівна",
+				"tel": "+380665373948"
 			}
 		],
 		"zoom": {
-			"link": "-",
-			"password": "-"
+			"link": "https://us04web.zoom.us/j/8353177403?pwd=VndYT0hiL0VyK1FDUWdJdmlmL210dz09",
+			"password": "2Z2KCv"
 		},
 		"program": "-"
 	},
 	{
 		"date": 2,
-		"time": "",
+		"time": "9:00",
 		"title": "Pediatrics",
-		"adress": "",
+		"adress": "Only online conference",
 		"moderators": [
 			{
-				"surname": "",
-				"name": "",
-				"middle_name": "",
-				"tel": "+"
+				"surname": "Avramkina",
+				"name": "Darja",
+				"middle_name": "K.",
+				"tel": "+380685769887"
 			},
 			{
-				"surname": "",
-				"name": "",
-				"middle_name": "",
-				"tel": "+"
+				"surname": "Shevtsova",
+				"name": "Maria",
+				"middle_name": "Yu.",
+				"tel": "+380662431994"
 			}
 		],
 		"zoom": {
-			"link": "-",
+			"link": "https://meet.google.com/hya-jppd-mgi",
 			"password": "-"
 		},
 		"program": "-"
@@ -212,15 +212,15 @@ const infos = [
 				"tel": "+380966764811"
 			},
 			{
-				"surname": "",
-				"name": "",
-				"middle_name": "",
-				"tel": "+"
+				"surname": "Катагіра ",
+				"name": "Михайло",
+				"middle_name": "Мозесович",
+				"tel": "+380681190319"
 			}
 		],
 		"zoom": {
-			"link": "",
-			"password": ""
+			"link": "https://us04web.zoom.us/j/75224766813?pwd=TVY4TjZQVDVCcnBpZkFvWm9Td25Ndz09",
+			"password": "4dr9HN"
 		},
 		"program": "-"
 	},
@@ -245,7 +245,7 @@ const infos = [
 		],
 		"zoom": {
 			"link": "https://us04web.zoom.us/j/4715297484?pwd=TldQcWFBbmF2VXVwT3JkbGRsWG5ldz09",
-			"password": "-"
+			"password": "8GKWua"
 		},
 		"program": "-"
 	},
@@ -269,8 +269,8 @@ const infos = [
 			}
 		],
 		"zoom": {
-			"link": "",
-			"password": ""
+			"link": "https://us04web.zoom.us/j/77751482400?pwd=Qlh3QVNydGl4WmlBYU8raTc0b01zQT09",
+			"password": "7hYSaA"
 		},
 		"program": "-"
 	},
@@ -295,39 +295,14 @@ const infos = [
 		],
 		"zoom": {
 			"link": "https://us04web.zoom.us/j/2287266181?pwd=Y2ptSmU5UFJnTEhuZ3RkNkZFNzR5UT09",
-			"password": "-"
+			"password": "560227"
 		},
 		"program": "-"
 	},
 	{
 		"date": 2,
 		"time": "9:00",
-		"title": "Гігієна та соціальна медицина",
-		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 6й поверх, ауд. 643а",
-		"moderators": [
-			{
-				"surname": "Шарапова",
-				"name": "Олександра",
-				"middle_name": "Володимирівна",
-				"tel": "+380954583963"
-			},
-			{
-				"surname": "Шнуркова ",
-				"name": "Анна",
-				"middle_name": "Сергіївна",
-				"tel": "+380662519200"
-			}
-		],
-		"zoom": {
-			"link": "https://us04web.zoom.us/j/2287266181?pwd=Y2ptSmU5UFJnTEhuZ3RkNkZFNzR5UT09",
-			"password": "-"
-		},
-		"program": "-"
-	},
-	{
-		"date": 2,
-		"time": "9:00",
-		"title": "Гігієна та соціальна медицина",
+		"title": "Сімейна медицина, профілактична медицина, здоровий спосіб життя",
 		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 6й поверх, ауд. 678",
 		"moderators": [
 			{
@@ -344,14 +319,14 @@ const infos = [
 			}
 		],
 		"zoom": {
-			"link": "",
-			"password": "-"
+			"link": "https://us04web.zoom.us/j/3518885703?pwd=eW5WK2U4MFI5NzlpWXdGbDFhL1lvZz09",
+			"password": "8EpQ4v"
 		},
 		"program": "-"
 	},
 	{
 		"date": 1,
-		"time": "",
+		"time": "13:00",
 		"title": "Медична генетика",
 		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 5й поверх, ауд. 581",
 		"moderators":[
@@ -369,6 +344,31 @@ const infos = [
 			}
 		],
 		"zoom": null,
+		"program": "https://docs.google.com/document/d/e/2PACX-1vR7T0IbrT9k1QpCF6I49RNkRBMxYE5bbimBAeHEqJZ5a9NuYw7TV8P5xwtv0F7R8X5lW8e-bGd1FQ8b/pub"
+	},	
+	{
+		"date": 1,
+		"time": "",
+		"title": "Історія медицини",
+		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 5й поверх, ауд. 591",
+		"moderators":[
+			{
+				"surname": "Дмитрюкова",
+				"name": "Софiя",
+				"middle_name": "Романівна",
+				"tel": "+380990975857"
+			},
+			{
+				"surname": "Кручиніна",
+				"name": "Олеся",
+				"middle_name": "Олегівна",
+				"tel": "+380950240686"
+			}
+		],
+		"zoom": {
+			"link": "https://us04web.zoom.us/j/76690791255?pwd=TGJWQTRnU1UwNmp0RVViVk1uME9tQT09",
+			"password": "0dawEr"
+		},
 		"program": "https://docs.google.com/document/d/e/2PACX-1vR7T0IbrT9k1QpCF6I49RNkRBMxYE5bbimBAeHEqJZ5a9NuYw7TV8P5xwtv0F7R8X5lW8e-bGd1FQ8b/pub"
 	}
 ];
