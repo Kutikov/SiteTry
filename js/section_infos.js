@@ -6,15 +6,15 @@ const infos = [
 		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 6й поверх, ауд. 678",
 		"moderators": [
 			{
-				"surname": " Иванишина (Кульминская)",
+				"surname": "Иванішина (Кульмінська)",
 				"name": "Владислава ",
-				"middle_name": "Юрьевна",
+				"middle_name": "Юр'ївна",
 				"tel": "+380663213314"
 			},
 			{
 				"surname": "Голобородько",
-				"name": "Анастасия",
-				"middle_name": "Александровна",
+				"name": "Анастасія",
+				"middle_name": "Олександрівна",
 				"tel": "+380979272644"
 			}
 		],
@@ -22,7 +22,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/4754417420?pwd=ZjhGdGx4OTBKd3RBK0M0MURod3U5Zz09",
 			"password": "u2fuBF"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1A8jLPOUm9HAvlVDkkjHb1KX45WphfEmH/view"
 	},
 	{
 		"date": 2,
@@ -72,7 +72,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/4328420013?pwd=b2pnNUprTXNJa25oNFdsTThEK2orZz09",
 			"password": "XT9198"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1K2gU0aXPWkK2_Hvquy1T-zLgzOlGQVlz/view"
 	},
 	{
 		"date": 2,
@@ -97,7 +97,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/8353177403?pwd=VndYT0hiL0VyK1FDUWdJdmlmL210dz09",
 			"password": "2Z2KCv"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1MJBoXxVnyk_-WRyA7W0wvc9dt4LLIPh6/view"
 	},
 	{
 		"date": 2,
@@ -120,9 +120,9 @@ const infos = [
 		],
 		"zoom": {
 			"link": "https://meet.google.com/hya-jppd-mgi",
-			"password": "-"
+			"password": "https://drive.google.com/file/d/1lk7lhX9p3661K5UP0wjKOtsT715XVLuz/view"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/17hKRPLNYD6X81cZhZ3yCBjoVERgJPHKH/view"
 	},
 	{
 		"date": 2,
@@ -144,8 +144,8 @@ const infos = [
 			}
 		],
 		"zoom": {
-			"link": "-",
-			"password": "-"
+			"link": "https://us04web.zoom.us/j/3420373311?pwd=dXhnVXRDcXRGU05DQ0lTRzY3ZGNQZz09",
+			"password": "777"
 		},
 		"program": "-"
 	},
@@ -172,7 +172,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/3778043685?pwd=c3cyRWFNcVc1NEhnRFFxbytCSTVpUT09",
 			"password": "7R4BRy"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1JTKQNUtb4Te8a5JIHP9MFaXII-AjOBGs/view"
 	},
 	{
 		"date": 2,
@@ -197,7 +197,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/5813095022?pwd=bFREZHhDV0diaGJ4S3crVTQvck1ydz09",
 			"password": "0rSRdF"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1mlqV7VpKtlnLh3z__sK_VqXMNmt4lSOZ/view"
 	},
 	{
 		"date": 2,
@@ -222,7 +222,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/75224766813?pwd=TVY4TjZQVDVCcnBpZkFvWm9Td25Ndz09",
 			"password": "4dr9HN"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1dxalpuAWe6jMWBa1IY8ribxM4_oJQ8Ge/view"
 	},
 	{
 		"date": 2,
@@ -247,7 +247,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/4715297484?pwd=TldQcWFBbmF2VXVwT3JkbGRsWG5ldz09",
 			"password": "8GKWua"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1_4fc3_6YsuAznNXpFYzo73uGZE1BYh05/view"
 	},
 	{
 		"date": 2,
@@ -272,13 +272,13 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/77751482400?pwd=Qlh3QVNydGl4WmlBYU8raTc0b01zQT09",
 			"password": "7hYSaA"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1_k7DV-fAlncFjnCkQmPkXYiuJfHOU2Ue/view"
 	},
 	{
 		"date": 2,
 		"time": "9:00",
 		"title": "Гігієна та соціальна медицина",
-		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 6й поверх, ауд. 643а",
+		"adress": "Засідання проводится тільки в онлайн режимі",
 		"moderators": [
 			{
 				"surname": "Шарапова",
@@ -297,7 +297,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/2287266181?pwd=Y2ptSmU5UFJnTEhuZ3RkNkZFNzR5UT09",
 			"password": "560227"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1AeXWuOfAnJ1ewO261EW58tADQExaoILP/view"
 	},
 	{
 		"date": 2,
@@ -322,7 +322,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/3518885703?pwd=eW5WK2U4MFI5NzlpWXdGbDFhL1lvZz09",
 			"password": "8EpQ4v"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1JWF7OyQsTYwcQFiMu4IvcQcfQrcwnpWI/view"
 	},
 	{
 		"date": 1,
@@ -344,7 +344,7 @@ const infos = [
 			}
 		],
 		"zoom": null,
-		"program": "https://docs.google.com/document/d/e/2PACX-1vR7T0IbrT9k1QpCF6I49RNkRBMxYE5bbimBAeHEqJZ5a9NuYw7TV8P5xwtv0F7R8X5lW8e-bGd1FQ8b/pub"
+		"program": "https://drive.google.com/file/d/1m1qYtHZyt7w3mq7lOyzZ2vPBMQNgunxf/view"
 	},	
 	{
 		"date": 1,
@@ -369,6 +369,6 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/76690791255?pwd=TGJWQTRnU1UwNmp0RVViVk1uME9tQT09",
 			"password": "0dawEr"
 		},
-		"program": "https://docs.google.com/document/d/e/2PACX-1vR7T0IbrT9k1QpCF6I49RNkRBMxYE5bbimBAeHEqJZ5a9NuYw7TV8P5xwtv0F7R8X5lW8e-bGd1FQ8b/pub"
+		"program": "https://drive.google.com/file/d/1LcgGpvmsFJczyDbALYxiVNTwhzBVYNOG/view"
 	}
 ];
