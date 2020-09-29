@@ -12,6 +12,27 @@ body{
   top: 0;
   right: 0;
 }
+
+.section_selector:hover{
+  background-color: #ffe0b2;
+  user-select: pointer;
+}
+.section_image{
+  height:56px;
+  width:56px; 
+  margin-left:auto; 
+  margin-right:auto; 
+  flex-basis:100%
+}
+.section_selector{
+  width: 33%;
+  text-decoration: none;
+  padding: 16px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #ffe0b200;
+}
 .image_div{
   position: fixed;
   left: 0;
@@ -216,6 +237,11 @@ body{
   }
   .info_text{
     font-size: 16px;
+  }
+
+  .section_image{
+    width: 72px;
+    height: 72px;
   }
 
   .moderator_text{

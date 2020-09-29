@@ -47,7 +47,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/74885472544?pwd=S2ptUEQ0VUhHOVlQYmROSFpnSE1VZz09",
 			"password": "4G2R0J"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1lk7lhX9p3661K5UP0wjKOtsT715XVLuz/view"
 	},
 	{
 		"date": 2,
@@ -147,7 +147,7 @@ const infos = [
 			"link": "https://us04web.zoom.us/j/3420373311?pwd=dXhnVXRDcXRGU05DQ0lTRzY3ZGNQZz09",
 			"password": "777"
 		},
-		"program": "-"
+		"program": "https://drive.google.com/file/d/1gHQF4LUBeu95qP7VohpWDqGdiuE0p4Nw/view"
 	},
 	{
 		"date": 2,
