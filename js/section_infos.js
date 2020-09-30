@@ -1,12 +1,34 @@
 const infos = [
 	{
+		"date": 1,
+		"time": "13:00",
+		"title": "Медична генетика",
+		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 5й поверх, ауд. 581",
+		"moderators": [
+			{
+				"surname": "Захарова",
+				"name": "Анна",
+				"middle_name": "Олексіївна",
+				"tel": "+380955072522"
+			},
+			{
+				"surname": "Ловчикова",
+				"name": "Анастасія",
+				"middle_name": "Сергіївна",
+				"tel": "+380675649003"
+			}
+		],
+		"zoom": null,
+		"program": "https://drive.google.com/file/d/1m1qYtHZyt7w3mq7lOyzZ2vPBMQNgunxf/view"
+	},
+	{
 		"date": 2,
 		"time": "10:00",
 		"title": "Внутрішня медицина та клінічні випадки",
 		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 6й поверх, ауд. 678",
 		"moderators": [
 			{
-				"surname": "Иванішина (Кульмінська)",
+				"surname": "Іванішина (Кульмінська)",
 				"name": "Владислава ",
 				"middle_name": "Юр'ївна",
 				"tel": "+380663213314"
@@ -325,29 +347,7 @@ const infos = [
 		"program": "https://drive.google.com/file/d/1JWF7OyQsTYwcQFiMu4IvcQcfQrcwnpWI/view"
 	},
 	{
-		"date": 1,
-		"time": "13:00",
-		"title": "Медична генетика",
-		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 5й поверх, ауд. 581",
-		"moderators":[
-			{
-				"surname": "Захарова",
-				"name": "Анна",
-				"middle_name": "Олексіївна",
-				"tel": "+380955072522"
-			},
-			{
-				"surname": "Ловчикова",
-				"name": "Анастасія",
-				"middle_name": "Сергіївна",
-				"tel": "+380675649003"
-			}
-		],
-		"zoom": null,
-		"program": "https://drive.google.com/file/d/1m1qYtHZyt7w3mq7lOyzZ2vPBMQNgunxf/view"
-	},	
-	{
-		"date": 1,
+		"date": 2,
 		"time": "",
 		"title": "Історія медицини",
 		"adress": "Харківський національний університет імені В.Н. Каразіна, майдан Свободи 6, 5й поверх, ауд. 591",

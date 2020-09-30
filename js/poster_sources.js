@@ -105,4 +105,4 @@ const posters = [
         "image_name": "null.jpg"
     }
 ];
-const imagesList = [ "picture-1.jpg", "picture-2.jpg", "picture-3.jpg" ];
+const imagesList = [ "null.jpg", "picture-1.jpg", "picture-2.jpg", "picture-3.jpg" ];
