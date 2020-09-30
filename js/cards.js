@@ -223,5 +223,9 @@ function generateSectionCard(source){
         card.querySelector("#zoomPassword").style.display = 'none';
         card.querySelector("#zoomButton").innerHTML = 'CONNECT IN GOOGLE MEET'
     }
+    if(source.title.startsWith('Гігієна')){
+        card.querySelector("#zoomPassword").children[1].innerHTML = 'Пароль конференції: <b>' + source.zoom.password + '</b>';
+        card.querySelector("#zoomButton").innerHTML = 'ДО GOOGLE MEET'
+    }
     return card;
 }

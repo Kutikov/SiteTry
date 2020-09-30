@@ -98,7 +98,7 @@ const infos = [
 	},
 	{
 		"date": 2,
-		"time": "9:00",
+		"time": "10:00",
 		"title": "Педіатрія",
 		"adress": "ДУ 'Інститут охорони здоров'я дітей та підлітків НАМН України', пр-Ювілейний 52а",
 		"moderators": [
@@ -316,8 +316,8 @@ const infos = [
 			}
 		],
 		"zoom": {
-			"link": "https://us04web.zoom.us/j/2287266181?pwd=Y2ptSmU5UFJnTEhuZ3RkNkZFNzR5UT09",
-			"password": "560227"
+			"link": "https://meet.google.com/ygv-dkzg-dsd",
+			"password": "912 615 070#"
 		},
 		"program": "https://drive.google.com/file/d/1AeXWuOfAnJ1ewO261EW58tADQExaoILP/view"
 	},
