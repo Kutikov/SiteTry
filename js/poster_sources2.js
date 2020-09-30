@@ -53,7 +53,7 @@ const posters = [
         "authors": "Катагіра М.М.",
         "affiliation": "Харківський національний університет імені В. Н. Каразіна, медичний факультет, кафедра загальної та клінічної імунології та алергології, Харків, Україна",
         "supervisor": "Гололобова О .В., к. мед. н., доцент",
-        "image_name": "null.jpg"
+        "image_name": "Katagira.jpg"
     },
     {
         "title": "ПІДШЛУНКОВА ЗАЛОЗА: ЕМБРІОГЕНЕЗ, СТРУКТУРНА ОРГАНІЗАЦІЯ ТА ПРИКЛАДИ ПАТОЛОГІЧНИХ СТАНІВ",
@@ -119,4 +119,4 @@ const posters = [
         "image_name": "Shapoval.jpg"
     }
 ];
-const imagesList = [ "null.jpg", "Alexanjan.jpg", "Bojko.jpg", "Dorofeeva.jpg", "Fomenko.jpg", "Gurova.jpg", "Holubnycha.jpg", "Ivanova.jpg", "Kizurina.jpg", "Koteluh.jpg", "Neljapina.jpg", "Orlova.jpg", "Rodionov.jpg", "Sazonova.jpg", "Shapoval.jpg", "Shevchenko.jpg", "Voshchilin.jpg" ];
+const imagesList = [ "null.jpg", "Alexanjan.jpg", "Bojko.jpg", "Dorofeeva.jpg", "Fomenko.jpg", "Gurova.jpg", "Holubnycha.jpg", "Ivanova.jpg", "Kizurina.jpg", "Koteluh.jpg", "Neljapina.jpg", "Orlova.jpg", "Rodionov.jpg", "Sazonova.jpg", "Shapoval.jpg", "Shevchenko.jpg", "Voshchilin.jpg", "Katagira.jpg" ];
