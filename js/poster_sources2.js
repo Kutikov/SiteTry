@@ -60,7 +60,7 @@ const posters = [
         "authors": "Шевченко Т. Т.",
         "affiliation": "Харківський національний університет імені В. Н. Каразіна, медичний факультет, кафедра загальної та клінічної патології, Харків, Україна",
         "supervisor": "Шаповал О. В., к. мед. н., доцент<br>Чертенко Т. Н., к. мед. н., асистент<br>Проценко О. С., д. мед. н., професор, завідувач кафедри загальної та клінічної патології",
-        "image_name": "Shevchenko.jpg"
+        "image_name": "Shevchenko2.jpg"
     },
     {
         "title": "МОРФОЛОГІЧНА БУДОВА ОКА ТА МЕТОДИКИ ВІДНОВЛЕННЯ ЗОРУ",
@@ -119,4 +119,4 @@ const posters = [
         "image_name": "Shapoval.jpg"
     }
 ];
-const imagesList = [ "null.jpg", "Alexanjan.jpg", "Bojko.jpg", "Dorofeeva.jpg", "Fomenko.jpg", "Gurova.jpg", "Holubnycha.jpg", "Ivanova.jpg", "Kizurina.jpg", "Koteluh.jpg", "Neljapina.jpg", "Orlova.jpg", "Rodionov.jpg", "Sazonova.jpg", "Shapoval.jpg", "Shevchenko.jpg", "Voshchilin.jpg", "Katagira.jpg" ];
+const imagesList = [ "null.jpg", "Alexanjan.jpg", "Bojko.jpg", "Dorofeeva.jpg", "Fomenko.jpg", "Gurova.jpg", "Holubnycha.jpg", "Ivanova.jpg", "Kizurina.jpg", "Koteluh.jpg", "Neljapina.jpg", "Orlova.jpg", "Rodionov.jpg", "Sazonova.jpg", "Shapoval.jpg", "Shevchenko2.jpg", "Voshchilin.jpg", "Katagira.jpg" ];
