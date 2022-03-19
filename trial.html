@@ -15,23 +15,30 @@
         <script type="text/javascript">
             window.onload = () => {
 
+                const connected = 'connected';
+
                 let parentWindow = null;
                 let parentUrl = null;
 
-                window.addEventListener("message", (event) => {
-                    if(parentWindow == null){
-                        parentWindow = event.source;
-                        parentUrl = event.origin;
+                window.addEventListener('message', (event) => {
+                    if(this.parentWindow == null){
+                        this.parentWindow = event.source;
+                        this.parentUrl = event.origin;
                     }
-                    document.getElementById('messageViever').innerText = event.data.toString();
+                    if(event.data.toString() === connected){
+                        this.parentWindow.postMessage(connected, this.parentUrl);
+                    }
+                    else{
+                        document.getElementById('messageViever').innerText = event.data.toString();
+                    }
                 }, false);
 
                 document.getElementById('button').addEventListener('click', () => {
-                    if(parentWindow == null){
+                    if(this.parentWindow == null){
                         document.getElementById('messageViever').innerText = 'no parent';
                     }
                     else{
-                        parentWindow.postMessage('child window message', parentUrl);
+                        this.parentWindow.postMessage('child window message', this.parentUrl);
                     }
                 });
             }
